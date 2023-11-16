@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_navigation_shop"
+        android:title="@string/shop"
+        android:icon="@drawable/ic_shop"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/bottom_navigation_exchange"
+        android:title="@string/exchange"
+        android:icon="@drawable/ic_exchange"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/bottom_navigation_golden_earth"
+        android:title="@string/app_name"
+        android:icon="@drawable/ic_earth"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/bottom_navigation_launchpad"
+        android:title="@string/launchpads"
+        android:icon="@drawable/ic_launchpad"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/bottom_navigation_wallet"
+        android:title="@string/wallet"
+        android:enabled="true"
+        android:icon="@drawable/ic_wallet" />
+
+</menu>
