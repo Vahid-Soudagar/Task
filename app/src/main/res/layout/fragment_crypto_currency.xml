@@ -3,15 +3,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.CryptoCurrencyFragment"
-    android:background="#4CAF50">
+    tools:context=".fragments.CryptoCurrencyFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/cryptocurrency"
-        android:textColor="@color/white"
-        android:textSize="24sp"/>
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rectangle_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/top_currency"
+            android:text="@string/top_cryptocurrency"
+            android:textSize="24sp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            android:layout_below="@id/chart"
+            android:layout_alignStart="@id/chart"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/view_all"
+            android:text="@string/view_all"
+            android:textSize="18sp"
+            android:layout_toEndOf="@id/top_currency"
+            android:layout_below="@id/chart"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignEnd="@id/chart"
+            android:layout_alignBottom="@id/top_currency"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_currency"
+            android:layout_alignStart="@id/top_currency"
+            android:layout_alignEnd="@id/view_all"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
 
 </FrameLayout>

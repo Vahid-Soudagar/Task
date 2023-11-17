@@ -43,4 +43,20 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+//    mp chart
+//    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
+//    implementation("com.github.jitpack:android-example:1.0.1")
+    //    retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+//      okhttp and  logging inteceptor - 3.9.1
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+    //    gson
+    implementation("com.google.code.gson:gson:2.10.1")
+//    retorofit to gson convertor
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    //    glide
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }

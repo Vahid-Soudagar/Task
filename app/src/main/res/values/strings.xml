@@ -10,4 +10,6 @@
     <string name="search_cryptocurrency">Search Cryptocurrency</string>
     <string name="cryptocurrency">Cryptocurrency</string>
     <string name="nft">NFT</string>
+    <string name="top_cryptocurrency">Top Cryptocurrency</string>
+    <string name="view_all">View all</string>
 </resources>
